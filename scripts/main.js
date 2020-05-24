@@ -1,0 +1,1 @@
+var functionString = "4x+6"
