@@ -40,6 +40,6 @@ class AddFunction extends Function {
   }
 
   evaluate(x) {
-    return this.f1.evaluate() + this.f2.evaluate();
+    return this.f1.evaluate(x) + this.f2.evaluate(x);
   }
 }
